@@ -1,0 +1,50 @@
+body{
+  background-color: #58d28c;
+  text-align: center;
+}
+h1{
+	margin-top: 7%;
+	font-size: 3rem;
+	font-family: 'Special Elite', cursive;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+a:hover{
+  color: #fff;
+}
+p{
+  margin-bottom: 0px;
+}
+
+.btn:focus{
+  outline: none;
+  box-shadow: none;
+}
+
+.piano{
+  position: absolute;
+  left: 4%;
+  top: 35%;
+}
+
+.white{
+  width: 3.5rem;
+  height: 15rem;
+  border-color: #000;
+}
+
+.black{
+  position: relative;
+    margin: -16px;
+    width: 2rem;
+    height: 10rem;
+    bottom: -15px;
+}
+
+#footer{
+  position: absolute;
+  left: 40%;
+  top: 95%;
+}
