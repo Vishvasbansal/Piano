@@ -11,15 +11,15 @@ for (i = 0; i < document.querySelectorAll(".black").length; i++) {
 function naturalNotes() {
   var audio = new Audio('notes/Piano.mf.' + this.id + '.mp3');
   audio.play();
-  if(this.id==="D3"){
-    setTimeout(function(){
-      audio.volume=0.01;
-    },1700);
-  }else {
+  // if(this.id==="D3"){
+  //   setTimeout(function(){
+  //     audio.volume=0.01;
+  //   },1700);
+  // }else {
     setTimeout(function(){
       audio.volume=0.01;
     },900);
-  }
+  // }
 }
 
 //adding sound to black Notes
