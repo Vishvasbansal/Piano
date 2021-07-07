@@ -15,10 +15,10 @@ function naturalNotes() {
   //   setTimeout(function(){
   //     audio.volume=0.01;
   //   },1700);
-  // }else {
-    setTimeout(function(){
-      audio.volume=0.01;
-    },900);
+  // // }else {
+  //   setTimeout(function(){
+  //     audio.volume=0.01;
+  //   },900);
   // }
 }
 
@@ -27,7 +27,7 @@ function naturalNotes() {
 function sharpsAndFlat() {
   var audio = new Audio('notes/Piano.mf.' + this.id + '.mp3');
   audio.play();
-  setTimeout(function(){
-    audio.volume=0.01;
-  },900);
+  // setTimeout(function(){
+  //   audio.volume=0.01;
+  // },900);
 }
